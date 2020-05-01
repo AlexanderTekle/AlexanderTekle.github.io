@@ -1,425 +1,296 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tasty.</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Tasty Recipes" />
-	<meta name="author" content="BPA Website Design Team" />
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+  <meta name="author" content="Alexander Tekle">
+  <meta name="description" content="">
+  <link rel="alternate" hreflang="en-us" href="https://www.alextekle.com/">
+  <meta name="theme-color" content="#bf5700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  <link rel="stylesheet" href="css/academic.css">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Alexander Tekle">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="canonical" href="https://www.alextekle.com/">
+  <meta property="twitter:card" content="summary">
+  <meta property="og:site_name" content="Alexander Tekle">
+  <meta property="og:url" content="https://www.alextekle.com/">
+  <meta property="og:title" content="Alexander Tekle">
+  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+    <meta property="og:updated_time" content="2020-02-09T00:00:00&#43;00:00">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.alextekle.com?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://www.alextekle.coms"
+}
+</script>
+  <title>Alexander Tekle</title>
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div id="search-box">
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+      </div>
+    </section>
+    <section class="section-search-results">
+      <div id="search-hits">
+      </div>
+    </section>
+  </div>
+</aside>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand back-to-top" href="/">Alexander Tekle</a>
+    </div>
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Alexander Tekle</a>
+    </div>
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+      <ul class="navbar-nav d-md-inline-flex">
+        <li class="nav-item">
+          <a class="nav-link " href="files/AlexanderTekle-Resume.pdf"><span>Resume</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#"><span>Blog</span></a>
+        </li>
+      </ul>
+    </div>
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<span class="js-widget-page d-none"></span>
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+      <img class="avatar avatar-circle" src="images/headshot.jpg" alt="Alexander Tekle">
+      <div class="portrait-title">
+        <h2>Alexander Tekle</h2>
+        <h3>
+          <a href="mailto:alexander.tekle@utexas.edu">alexander.tekle@utexas.edu</a>
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+    <p>I am a third year computer engineering and math student at the
+<a href="https://www.utexas.edu" target="_blank" rel="noopener">University of Texas at Austin</a>.</p>
+<p>My interests broadly include novel real-world applications of deep learning and stochaistic modeling.</p>
+<p>This summer, I'll be working as a Software Engineering intern at
+<a href="http://www.google.com" target="_blank" rel="noopener">Google</a> and conducting NLP research with
+<a href="https://jjessyli.github.io/" target="_blank" rel="noopener">Dr. Jessy Li</a>.</p>
+    <div class="row">
+    </div>
+  </div>
+  <div class="col-12">
+    <div id="profile">
+      <ul class="network-icon" aria-hidden="true">
+        <li>
+          <a href="files/AlexanderTekle-Resume.pdf" >
+            <i class="far fa-file"> </i> Resume
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/alexandertekle/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/alexandertekle" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+  <section id="experience" class="home-section wg-pages   "  >
+    <div class="container">
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experience</h1>
+  </div>
+  <div class="col-12 col-lg-8">
+    <!--
+<div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://www.alextekle.com/publication/">filtering publications</a>.
+  </div>
+</div>
+-->
+  <div class="pub-list-item" style="margin-bottom: 1rem">
+    <i class="fas fa-code" aria-hidden="true"></i> <b>Incoming Software Engineering Intern</b>
+    <br />
+    <a href="http://www.google.com" target="_blank" rel="noopener">Google</a>
+      | Sunnyvale, CA | Summer 2020
+      <br />
+      <ul>
+        <li>
+          Working with Google Pay
+        </li>
+      </ul>
+  </div>
+  <div class="pub-list-item" style="margin-bottom: 1rem">
+    <i class="fas fa-code" aria-hidden="true"></i> <b>Incoming Research Assistant</b>
+    <br />
+    <a href="https://liberalarts.utexas.edu/linguistics/index.php" target="_blank" rel="noopener">University of Texas at Austin</a>
+      | Austin, TX | Summer 2020
+      <br />
+      <ul>
+        <li>
+          Research in computational linguistics at UT Austin
+        </li>
+      </ul>
+  </div>
+  <div class="pub-list-item" style="margin-bottom: 1rem">
+    <i class="fas fa-code" aria-hidden="true"></i> <b>Software Engineering Intern</b>
+    <br />
+    <a href="http://www.google.com" target="_blank" rel="noopener">Google</a>
+      | New York, NY | Summer 2019
+      <br />
+      <ul>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+        <li>
+          Decreased latency of serving ads by implementing asynchronous read/write machine learning models
+        </li>
+      </ul>
+  </div>
+  <div class="pub-list-item" style="margin-bottom: 1rem">
+    <i class="fas fa-code" aria-hidden="true"></i> <b>Engineering Practicum Intern</b>
+    <br />
+    <a href="http://www.google.com" target="_blank" rel="noopener">Google</a>
+      | Mountain View, CA | Summer 2018
+      <br />
+      <ul>
 
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+        <li>
+          Rehauled the children sign in/sign up flow UI on iOS, Android & web for Google Families
+        </li>
+      </ul>
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-	<div>
-		<section id = "top">
-		</section>
-	</div>
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="top-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">TASTY<span>.</span></a></div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="has-dropdown">
-								<a href="#old">Recipes</a>
-								<ul class="dropdown">
-									<li><a href="#old">Coconut Cream Pie</a></li>
-									<li><a href="#cheese">Strawberry Cheesecake</a></li>
-									<li><a href="#test">Testimonials</a></li>
-									<li><a href="#chef">Our Chefs</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</nav>
-
-	<aside id="fh5co-hero" class="js-fullheight">
-		<div class="flexslider js-fullheight">
-			<ul class="slides">
-		   	<li style="background-image: url(images/cake.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Tasty<b>.</b></h1>
-									<h2>World-Class Chefs Provide Expertise in the Field of Culinary Arts.</a></h2>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/pie.jpg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Premier Recipes</h1>
-									<h2>Recipes Created to Perfection to Provide You the Best Desserts at Home.</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#old">Start Cooking</a></p>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>
-		   	<li style="background-image: url(images/pie2.jpeg);">
-		   		<div class="overlay-gradient"></div>
-		   		<div class="container">
-		   			<div class="row">
-			   			<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-			   				<div class="slider-text-inner">
-			   					<h1>Highly-Rated Reviews</h1>
-									<h2>Customer Testimonials Reflect the Success of Our Recipes.</h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#cheese">Start Cooking</a></p>
-			   				</div>
-			   			</div>
-			   		</div>
-		   		</div>
-		   	</li>		   	
-		  	</ul>
-	  	</div>
-	</aside>
-	<div>
-		<section id = "old">
-		</section>
-	</div>
-	<div id="fh5co-counter" class="fh5co-counters fh5co-bg-section">
-
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-clock"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="290" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Time (minutes)</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-pie-chart"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="8" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Servings</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-bar-graph"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="423" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Calories</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-star"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="9" data-speed="2000" data-refresh-interval="200"></span>
-					<span class="fh5co-counter-label">Rating (out of 10)</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-content">
-
-		<div class="video fh5co-video" style="background-image: url(images/pievid.jpg);">
-			<a href="https://www.youtube.com/watch?v=4deaMzNx6RE" class="popup-youtube"><i class="icon-video2"></i></a>
-			<div class="overlay"></div>
-		</div>
-		<div class="choose animate-box">
-				<h2>Old-Fashioned Coconut Cream Pie</h2>
-				<p><b>Ingredients</b>
-				<ul class = "two">
-				<li>1 cup sweetened flaked coconut</li>
-				<li>3 cups half-and-half</li>
-				<li>3/4 cup white sugar</li>
-				<li>1/2 cup all-purpose flour</li>
-				<li>1/4 teaspoon salt</li>
-				<li>1 teaspoon vanilla extract</li>
-				<li>1 (9 inch) pie shell, baked</li>
-				<li>1 cup frozen whipped topping, thawed</li>
-				</ul>
-				</p>
-				<p><b>Directions</b></br>
-				1. Preheat oven to 350 degrees Farenheit<br>
-				2. Spread coconut on baking sheet & bake for 5 mins. Stir occasionally. <br>
-				3. In saucepan, mix eggs, sugar, flour & salt. Bring to a boil and stir.<br>
-				4. Cook 2 more minutes. Remove from heat. Stir 3/4 cup of coconut & vanilla. <br>
-				5. Pour filling into the pie shell and cool until firm. - Approx. 4 hours<br>
-				6. Top with whipped topping and coconut flakes.</p>
-
-
-		</div>
-	</div>
-]	
-
-		<div id="fh5co-counter" class="fh5co-counters fh5co-bg-section">
-	<div>
-		<section id = "cheese">
-		</section>
-	</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-clock"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="645" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Time (Minutes)</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-pie-chart"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="12" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Servings</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-bar-graph"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="459" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Calories</span>
-				</div>
-				<div class="col-md-3 text-center animate-box">
-					<span class="icon"><i class="icon-star"></i></span>
-					<span class="fh5co-counter js-counter" data-from="0" data-to="10" data-speed="2000" data-refresh-interval="50"></span>
-					<span class="fh5co-counter-label">Rating</span>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-	<div id="fh5co-content">
-		<div class="pic" style="background-image: url(images/cheesevid.jpg);">
-		
-			<div class="overlay"></div>
-		</div>
-		<div class="choose animate-box">
-				<h2>Strawberry Cheesecake</h2>
-				<p><b>Ingredients</b>
-				<ul class = "two">
-
-				<li>1 1/4 cups graham cracker crumbs</li>
-				<li>1/4 cup white sugar</li>
-				<li>2 teaspoons ground cinnamon</li>
-				<li>1/3 cup butter, melted</li>
-				<li>2 (10 oz) strawberry packages</li>
-				<li>1 tablespoon cornstarch</li>
-				<li>3 (8 oz) packages cream cheese</li>
-				<li>1 (14 oz) can sweetened milk</li>
-				<li>1/4 cup lemon juice</li>
-				<li>1/2 teaspoon vanilla extract</li>
-				<li>3 eggs</li>
-				</ul>
-				</p>
-
-
-				<p><b>Directions</b></br>
-				1. Mix crackers, sugar, cinnamon, and butter in a bowl. Refrigerate 30 mins.<br>
-				2. Preheat over to 300 Farenheit. Place strawberries & cornstach into blender. Cover/puree until smooth. Pour strawberry sauce into pan. <br>
-				3. Bring to boil. Boil and stir until sauce is thick and shiny which should take about 2 minutes. Set aside 1/3 cup strawberry sauce and cool. Cover and refrigerate remaining sauce for serving.<br>
-				4. Beat cream cheese and milk in bowl with an electric mixer. Mix in lemon and vanilla, then beat in eggs. Pour half of cream cheese mixture over crust; drop half of reserved strawberry sauce by 1/2 teaspoonfuls on top of cream cheese layer. Drop remaining strawberry sauce by 1/2 teaspoonfuls on top. Swirl strawberry sauce.<br>
-				5. Bake in preheated oven until center is almost set, 45 minutes. Cool on rack for 10 minutes.  Run a knife around edge of pan to loosen.<br>
-				6. Cool 1 hour. Refrigerate overnight. Serve strawberry sauce with cheesecake.</p>
-		</div>
-
-	</div>
-	
-	
-
-	<div id="fh5co-testimonial" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<section id ="test">
-						<h2>Testimonials</h2>
-					</section>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row animate-box">
-						<div class="owl-carousel owl-carousel-fullwidth">
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/eeshan.jpg" alt="user">
-									</figure>
-									<span>Eeshan</span>
-									<blockquote>
-										<p>&ldquo;Yum!!! I made this pie for a football party I went to last weekend and it turned out great! It was not too hard to make and my friends and family absolutely loved it. It's a reliable recipe I can come back to anytime I want to make a popular and tasty dessert.&rdquo;</p>
-									</blockquote>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/shea.jpg" alt="user">
-									</figure>
-									<span>Shea</span>
-									<blockquote>
-										<p>&ldquo;This is a fantastic recipe! I've made the Coconut Cream Pie three times and still love it.&rdquo;</p>
-									</blockquote>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimony-slide active text-center">
-									<figure>
-										<img src="images/whitney.jpg" alt="user">
-									</figure>
-									<span>Whitney</span>
-									<blockquote>
-										<p>&ldquo;This is a great cheesecake recipe! Very creamy and delicious!&rdquo;</p>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-	<div id="fh5co-about">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-				<section id=chef>
-					<h2>Our Chefs</h2>
-				</section>
-					<p>Highly Trained Chefs from Reputable Culinary Schools with Fresh and Innovative Ideas</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="fh5co-staff">
-
-						<img src="images/AT.jpg" alt="chef1">
-						<h3>Alexander Tekle</h3>
-						<strong class="role">Chef</strong>
-						<p>Alex has been cooking professionally for 14 years, specializing in desserts and pastries. He completed his undergraduate studies in Pastry Science at the Institute of Culinary Education.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="fh5co-staff">
-						<img src="images/SA.png" alt="chef2">
-						<h3>Saad Ahmad</h3>
-						<strong class="role">Chef</strong>
-						<p>Saad has been cooking for 15 years after dropping out of college from Harvard University to pursue his passions in the art of dessert and pastry making.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center animate-box" data-animate-effect="fadeIn">
-					<div class="fh5co-staff">
-						<img src="images/SS.jpg" alt="chef3">
-						<h3>Sanil Sharma</h3>
-						<strong class="role">Chef</strong>
-						<p>Sanil is a recent graduate from the International Culinary Center in New York City. He works part time at <i>Gotham Bar and Grill</i> and specializes in desserts and pastries.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="row row-pb-md special">
-				<div class="col-md-3 fh5co-widget">
-				<h4>Navigation</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#top">Home</a></li>
-						<li><a href="#old">Coconut Cream Pie</a></li>
-						<li><a href="#cheese">Strawberry Cheesecake</a></li>
-						<li><a href="#test">Testimonials</a></li>
-						<li><a href="#chef">About Us</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-md-push-1">
-									<h4>Tasty<b>.</b></h4>
-				</div>
-
-				<div class="col-md-3 col-md-push-1">
-					<h4>Contact Information</h4>
-					<ul class="fh5co-footer-links">
-						<li>105 West 14th Street, <br> Suite 400 New York NY 30016</li>
-						<li><a href="mailto:admin@tasty.com">Tasty.</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-		</div>
-	</footer>
-	</div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
-	</body>
+  </div>
+  </div>
+</div>
+    </div>
+  </section>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+    <script>const code_highlighting = true;</script>
+    <script>const isSiteThemeDark = true;</script>
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    <script src="https://use.fontawesome.com/8fd8b7e9d8.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+  <div class="container">
+    <footer class="site-footer">
+  <p class="powered-by">
+    Alexander Tekle © 2020
+    <span class="float-right" aria-hidden="true">
+  <a href="#" class="back-to-top">
+    <span class="button_icon">
+      <i class="fas fa-chevron-up fa-2x"></i>
+    </span>
+  </a>
+</span>
+  </p>
+</footer>
+  </div>
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
-
